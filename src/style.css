@@ -1,0 +1,105 @@
+/* CSS */
+
+html {
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#list-container {
+  flex-direction: column;
+  align-items: center;
+  margin: 150px auto;
+  border: 1px solid rgba(220, 220, 220, 1);
+  width: 500px;
+  max-width: 500px;
+  background-color: white;
+  box-shadow: 3px 3px 20px rgba(90, 90, 90, 0.5);
+}
+
+.list-head {
+  display: flex;
+  margin: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  border-bottom: 2px solid rgb(220, 220, 220, 1);
+}
+
+#icon {
+  color: gray;
+}
+
+.input {
+  border: none;
+  font-size: 1rem;
+  padding: 1rem 1rem;
+  font-style: italic;
+}
+
+.list {
+  display: flex;
+  align-items: baseline;
+  border-bottom: 1px solid rgba(220, 220, 220, 1);
+  border-top: 1px solid rgba(220, 220, 220, 1);
+  padding: 5px;
+}
+
+.list p {
+  margin-left: 1rem;
+}
+
+i {
+  margin-left: auto;
+  color: gray;
+}
+
+.hide {
+  display: none;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid rgba(220, 220, 220, 1);
+  background-color: rgb(238, 238, 238);
+}
+
+button {
+  border: none;
+  color: gray;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.edit {
+  background-color: rgb(242, 173, 245);
+}
+
+.edit input {
+  border: none;
+  background-color: rgb(242, 173, 245);
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+.input-container {
+  display: flex;
+  margin: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
